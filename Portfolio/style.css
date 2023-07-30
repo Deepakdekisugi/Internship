@@ -309,6 +309,10 @@ nav{
 .project {
     background-color: rgba(112, 128, 144, 0.067);
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+    position: relative;
 }
 
 .project h3 {
@@ -325,3 +329,33 @@ nav{
     font-weight: 400;
     color: #48494b;
 }
+
+.project-button {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(5, 73, 5);
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+}
+
+.project:hover .project-button {
+    display: block;
+    cursor: pointer;
+}
+
+.project-image-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.project img {
+    width: 100%;
+    max-width: 500px;
+}
+
