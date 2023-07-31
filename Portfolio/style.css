@@ -377,3 +377,69 @@ nav{
         grid-template-columns: repeat(1, minmax(0, 1fr));
     }
 }
+
+/* CONTACT STYLES */
+
+.contact {
+    padding-top: 5rem;
+    width: 100%;
+  }
+  
+  .contact-container {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1.5rem;
+  }
+  
+  .contact-info h2 {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+    margin-bottom: 1.2rem;
+    font-weight: 400;
+    color: #6b7280;
+  }
+  
+  .contact-info p {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 400;
+    color: #48494b;
+  }
+  
+  .contact-info h3 {
+    margin-top: 3rem;
+    font-size: 1.2rem;
+    line-height: 2.25rem;
+    font-weight: 400;
+    color: #6b7280;
+  }
+  
+  .contact-info h4 {
+    color: #48494b;
+    font-weight: 700;
+  }
+  
+  .contact-socials {
+    margin-top: 3rem;
+  }
+  
+  .contact-socials h5 {
+    font-size: 1rem;
+    line-height: 2.25rem;
+    font-weight: 400;
+    color: #6b7280;
+  }
+  
+  .contact-social-links {
+    display: flex;
+    gap: 10px;
+  }
+  
+  hr {
+    height: 0;
+    color: gray;
+    border-top-width: 1px;
+    margin-top: 2.5rem;
+    width: 89%;
+    margin: 2.5rem auto 0;
+  }
