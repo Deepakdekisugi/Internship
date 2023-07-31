@@ -23,3 +23,19 @@ function handleScroll () {
 }
 
 window.addEventListener('scroll', handleScroll);
+
+
+// Active Links
+
+
+const navLinks = document.querySelectorAll('.nav-menu li a');
+
+navLinks.forEach(link => {
+  link.addEventListener('click', function (event) {
+    navLinks.forEach(link => link.parentElement.classList.remove('active'),
+      navMenu.classList.remove('active'),
+      hamburger.classList.remove('active'),
+      body.classList.remove('no-scroll'));
+    this.parentElement.classList.add('active');
+  });
+});
