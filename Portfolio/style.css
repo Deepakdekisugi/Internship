@@ -475,3 +475,33 @@ form {
       grid-template-columns: repeat(1, minmax(0, 1fr));
     }
   }
+
+  /* FOOTER STYLES */
+
+.footer-container {
+    text-align: center;
+    padding: 15px 0;
+  }
+  
+  /* BACK TO TOP BUTTON STYLES */
+  
+  .btt-button {
+    position: fixed;
+    right: 10px;
+    bottom: 3rem;
+    display: none;
+    cursor: pointer;
+  }
+  
+  .show-btt-button {
+    display: block;
+  }
+  
+  .no-scroll {
+    overflow: hidden;
+  }
+  
+  .fade-in {
+    opacity: 0;
+  }
+  
